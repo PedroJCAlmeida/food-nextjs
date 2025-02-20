@@ -1,4 +1,4 @@
-import MianHeader from './components/main-header';
+import MianHeader from '@/components/main-header';
 import './globals.css';
 
 export const metadata = {
