@@ -1,12 +1,13 @@
 {
   "name": "foodies",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "gh-pages -d out -b main"
   },
   "dependencies": {
     "better-sqlite3": "^11.8.1",
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "eslint": "^8",
-    "eslint-config-next": "14.0.3"
+    "eslint-config-next": "14.0.3",
+    "gh-pages": "^6.3.0"
   }
 }
